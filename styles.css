@@ -1,0 +1,282 @@
+
+nav.nav-link{
+    color: black;
+    position: fixed;
+}
+.nav{
+   position: fixed;
+}
+.bg-primary {
+    background-image: url("img/bckgrnd1.JPG");
+    image-resolution: 100%;
+
+ }
+ .section-heading{
+    color: rgb(255, 255, 255);
+    
+ }
+ .section1{
+    padding: 9em;
+   text-align: right;
+   
+ }
+ .bg-dark{
+    background-color: bisque;
+ }
+.nosotros{
+   background-color: bisque;
+}
+.bg-secondary{
+   background-image: url("img/bckgrnd2.JPG"); 
+   image-resolution: 100%;
+}
+
+.bg-success{
+   background-color: bisque;
+   
+}
+.row{
+   display: flex;
+   flex-direction: row;
+}
+.btn-light{
+color: blue;
+}
+
+@font-face {
+   font-family: Sanchez;
+   src: url(Sanchezregular.otf);
+}
+*{
+font-family: Sanchez;
+
+}
+
+.btn-primary{
+   border-color: aliceblue;
+}
+.container{
+   align-items: left;
+}
+.section2{
+color: black;
+}
+
+.nosotros{
+   background-color: rgb(254, 199, 0);
+   padding: 100px 0px 100px 0px;
+   width: 100%;
+   display: flex;
+   align-items: left;
+   text-align: left;
+
+}
+.nosotros h1{
+   padding: 20px 10px 0px 350px;
+   text-align: left;
+   margin: 10px;
+   color:#000000;    
+}
+
+.nosotros img{
+  text-align: left;
+   height: 150px;   
+}
+.nosotros p{
+   text-align: left;
+  padding: 20px 10px 0px 350px;
+  font-size:18px;
+   color:rgb(0, 0, 0);
+   
+}
+.letras{
+   text-align: center;
+}
+.more{
+   background-color: #1736d2;
+   color: rgb(255, 255, 255);
+   border: none;
+   border-radius: 8px;
+   width: 120px;
+   height: 35px;
+   font-family: Sanchez;
+}
+.more:hover{
+   cursor: default;
+
+}
+.containercards{
+  text-align: center;
+   display: flex;
+   max-width:100%;
+   width: 100%;
+   height: 450px;
+   align-items: center;
+   justify-content: center;
+  
+}
+
+.card img{
+   width: 50%;
+
+}
+.card{
+   width: 250px;
+   height: 300px;
+
+   margin:20px;
+   border-radius: 6px;
+  background-color: rgb(255, 216, 100);
+   color: black;
+   box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+   cursor: default;
+   transition: all 400ms ease;
+   align-items: center;
+   text-align: center;
+
+}
+.cardservice{
+   width: 250px;
+   height: 300px;
+
+   margin:20px;
+   border-radius: 6px;
+  background-color: rgb(255, 255, 255);
+   color: black;
+   box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+   cursor: default;
+   transition: all 400ms ease;
+   align-items: center;
+   text-align: center;
+
+}
+.card:hover{
+   box-shadow:5px 5px 20px rgba(0,0,0,0.4);
+   transform: translateY(-3%);
+}
+.cardservice:hover{
+   box-shadow:5px 5px 20px rgba(0,0,0,0.4);
+   transform: translateY(-3%);
+}
+.card h2{
+padding: 20px;
+margin-top: auto;
+text-align: center;
+}
+.part11111 h1{
+   text-align: center;
+   padding: 90px 0px 0px 0px;
+}
+.cardcontact2{
+   width: 500px;
+   height: 200px;
+
+   margin:20px;
+   border-radius: 6px;
+  background-color: #ffdc74;
+   color: black;
+   cursor: default;
+   align-items: center;
+   text-align: right;
+   display: flex;
+   flex-direction: column;
+
+
+}
+.cardcontact2 input{
+   width: 300px;
+   height: 50px;
+   padding: 10px;
+   margin: 10px;
+   border: none;
+   border-radius: 7px;
+
+}
+.containercontacto{
+   text-align: center;
+    display: flex;
+    max-width:100%;
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffdc74;
+    
+}.cardcontact{
+   width: 500px;
+   height: 200px;
+
+   margin:20px;
+   border-radius: 6px;
+  background-color: #ffdc74;
+   color: black;
+   cursor: default;
+   align-items: center;
+   text-align: right;
+
+}
+.cardcontact h2{
+   color:#000000;
+
+}
+.cardcontact img{
+   height: 200px;
+}
+.log1{
+   padding: 15px;
+   height: 200px;
+   text-align: center;
+}
+.descarga{
+   text-align: center;
+   }
+   .download{
+      text-align: center;
+      display: center;
+      align-items: center;
+  }
+  .download h1{
+      padding: 20px;
+  }
+  .app{
+  
+   height: 80px;
+}
+.icons{
+   width: 300px;
+   text-align: center;
+}
+.creditos{
+   background-color: #E0DFDF;
+   text-align: center;
+   align-items: center;
+   
+}
+.creditos ul{
+
+   padding: 20px;
+   text-decoration: none;
+   color: black;
+   text-align: center;
+   list-style:none;
+
+}
+.creditos ul li{
+   padding: 20px;
+   list-style:none;
+   text-align: center;
+   color: #000000;
+}
+.creditos ul li a{
+  text-decoration: none;
+  
+  text-align: center;
+  list-style:none;
+  color: #000000;
+}
+.creditos h1{
+   padding: 30px;
+}
+.creditos img{
+   padding: 20px;
+}
